@@ -3,13 +3,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import logo from "./images/logo2.jpg"
 
 const navbar = () => {
     const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
     return (
         <Navbar expand="lg" className="Navbar">
           <Container fluid>
-            <img src="filesource" alt="Court KINGS image" />
+            <img src={logo} alt="Court KINGS image" width={80} height={55} />
             <Navbar.Brand href="#home" id="Title">COURT KINGS</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">

@@ -3,12 +3,14 @@ import "./Homepage.css"
 const Homepage = () =>{
     return (
         <main className="main-content">
-          <div className="welcome-message">
-            <h2>Welcome to Court Kings Basketball Club</h2>
+          <div className="image-container">
+            <div className="overlay-text">
+                <h2>COURT KINGS <br /> Basketball Club</h2>
+                <div><h1>DO IT</h1></div>
+            </div>
+            
           </div>
-          <div className="main-image">
-            <img src="path/to/main-image.jpg" alt="Basketball Court" />
-          </div>
+        
         </main>
       );
 }
