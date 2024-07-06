@@ -10,27 +10,27 @@ const navbar = () => {
     return (
         <Navbar expand="lg" className="Navbar">
           <Container fluid>
-            <img src={logo} alt="Court KINGS image" width={80} height={55} />
-            <Navbar.Brand href="#home" id="Title">COURT KINGS</Navbar.Brand>
+            <img src={logo} alt="Court KINGS image"  width={80} height={55} />
+            <Navbar.Brand href="/Home" id="Title">COURT KINGS</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto">
               <NavDropdown title="Events" id="tabs" className="navtab">
-                  <NavDropdown.Item href="#action/3.1" id="innertabs">Tournaments</NavDropdown.Item>
+                  <NavDropdown.Item href="tournaments" id="innertabs">Tournaments</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4" id="innertabs">
+                  <NavDropdown.Item href="open-court" id="innertabs">
                     Open Court
                   </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="Resources" id="tabs" className="navtab">
-                  <NavDropdown.Item href="#action/3.1" id="innertabs">Training Videos</NavDropdown.Item>
+                  <NavDropdown.Item href="training-videos" id="innertabs">Training Videos</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4" id="innertabs">
+                  <NavDropdown.Item href="training-sessions" id="innertabs">
                     Training Sessions
                   </NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href="#chat" id="tabs" className="navtab">Chat</Nav.Link>
-                <Nav.Link href="#home" id="tabs" className="navtab">Register</Nav.Link>
+                <Nav.Link href="chat" id="tabs" className="navtab">Chat</Nav.Link>
+                <Nav.Link href="personal-info" id="tabs" className="navtab">Register</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

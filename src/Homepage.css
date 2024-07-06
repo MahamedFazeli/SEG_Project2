@@ -40,3 +40,9 @@ html, body {
     background-image: url(images/homepage5.jpg);
     background-size: cover;
   }
+
+  .register{
+    transform: translateY(50%);
+  }
+
+ 
