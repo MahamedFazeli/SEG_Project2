@@ -17,10 +17,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div>
-      <BrowserRouter basename='/SEG_Project2'>
+      <BrowserRouter>
         <Navbar/>
         <Routes>
           <Route index element={<Homepage/>}/>
+          <Route path='/SEG_Project2' element={<Homepage/>}/>
           <Route path="/personal-info" element={<PersonalInfo/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/payment" element={<Payment/>}/>
