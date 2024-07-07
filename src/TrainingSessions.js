@@ -30,7 +30,7 @@ const TrainingSessions = () => {
     event.preventDefault();
     alert(`Coach: ${selectedCoach}, Date: ${selectedDate}, Drill: ${selectedDrill} 
 A confirmation Email will be sent shortly`);
-navigate('SEG_Project2');
+navigate('/SEG_Project2');
   };
 
   const coaches = ['Coach 1', 'Coach 2', 'Coach 3', 'Coach 4'];
@@ -99,7 +99,7 @@ navigate('SEG_Project2');
       </Row>
       <Row className="mt-4">
         <Col className="text-center">
-          <Button href='SEG_Project2' variant="dark" onClick={handleSubmit}>
+          <Button href='/SEG_Project2' variant="dark" onClick={handleSubmit}>
             Book
           </Button>
         </Col>
