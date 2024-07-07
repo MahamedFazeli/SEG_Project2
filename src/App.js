@@ -17,7 +17,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter >
         <Navbar/>
         <Routes>
           <Route path='/SEG_Project2' element={<Homepage/>}/>
