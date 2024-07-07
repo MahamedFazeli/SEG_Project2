@@ -11,7 +11,7 @@ const navbar = () => {
         <Navbar expand="lg" className="Navbar">
           <Container fluid>
             <img src={logo} alt="Court KINGS image"  width={80} height={55} />
-            <Navbar.Brand href="/Home" id="Title">COURT KINGS</Navbar.Brand>
+            <Navbar.Brand href="/SEG_Project2" id="Title">COURT KINGS</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto">

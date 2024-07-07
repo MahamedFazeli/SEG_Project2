@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
-const contact = () => {
+const Contact = () => {
     return (
         <div className="form-container">
-            <ProgressBar animated now={33}/>
+            <ProgressBar animated now={33} label="33%"/>
             <h2>Contact Information</h2>
             <form>
             <label>Phone Number</label>
@@ -28,4 +28,4 @@ const contact = () => {
         </div>
       );
 }
-export default contact;
+export default Contact;

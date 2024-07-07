@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const payment = () => {
     return (
         <div className="form-container">
-            <ProgressBar animated now={66}/>
+            <ProgressBar animated now={66} label="66%"/>
             <h2>Payment Information</h2>
             <form>
                 <label>Card Holder</label>

@@ -10,6 +10,7 @@ import OpenCourt from "./OpenCourt"
 import TrainingVideos from "./TrainingVideos"
 import TrainingSessions from "./TrainingSessions"
 import Confirmation from "./ConfirmationPage"
+import TournamentRegister from "./TournamentRegister"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -20,7 +21,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route index element={<Homepage/>}/>
-          <Route path='/home' element={<Homepage/>}/>
+          <Route path='/SEG_Project2' element={<Homepage/>}/>
           <Route path="/personal-info" element={<PersonalInfo/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/payment" element={<Payment/>}/>
@@ -30,6 +31,7 @@ function App() {
           <Route path="/training-sessions" element={<TrainingSessions/>}/>
           <Route path="/chat" element={<Chat/>}/>
           <Route path="/confirmation" element={<Confirmation/>}/>
+          <Route path="/tournament-register" element={<TournamentRegister/>}/>
         </Routes>
       </BrowserRouter>
     </div>
